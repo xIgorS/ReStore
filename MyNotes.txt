@@ -1,0 +1,5 @@
+dotnet watch --no-hot-reload
+dotnet ef database drop
+dotnet ef migrations remove
+dotnet ef migrations add InitialCreate --output-dir Your/Directory
+
